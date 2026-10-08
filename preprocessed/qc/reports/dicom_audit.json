@@ -1,0 +1,846 @@
+{
+  "discovery": {
+    "ct_labeled": [
+      1,
+      2,
+      5,
+      6,
+      8,
+      10,
+      14,
+      16,
+      18,
+      19,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "mr_labeled": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      10,
+      13,
+      15,
+      19,
+      20,
+      21,
+      22,
+      31,
+      32,
+      33,
+      34,
+      36,
+      37,
+      38,
+      39
+    ],
+    "ct_official_test": [
+      3,
+      4,
+      7,
+      9,
+      11,
+      12,
+      13,
+      15,
+      17,
+      20,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "mr_official_test": [
+      4,
+      6,
+      7,
+      9,
+      11,
+      12,
+      14,
+      16,
+      17,
+      18,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      35,
+      40
+    ],
+    "shared_folder_ids_not_same_patient": [
+      1,
+      2,
+      5,
+      8,
+      10,
+      19,
+      21,
+      22
+    ],
+    "note": "Folder IDs are independent. CT/1 and MR/1 are different patients. Do not pair or register across CT and MR."
+  },
+  "ct": {
+    "1": {
+      "series_uid": "1.3.46.670589.10.1.1.2163374719.1137684481.588647",
+      "all_series_uids": [
+        "1.3.46.670589.10.1.1.2163374719.1137684481.588647"
+      ],
+      "file_count": 96,
+      "size_xyz": [
+        512,
+        512,
+        96
+      ],
+      "array_shape_zyx": [
+        96,
+        512,
+        512
+      ],
+      "spacing_xyz": [
+        0.687671,
+        0.687671,
+        1.5
+      ],
+      "origin_xyz": [
+        -167.7859,
+        -176.0438,
+        -226.5
+      ],
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pixel_type": "32-bit signed integer",
+      "intensity_min": -1200.0,
+      "intensity_max": 1264.0,
+      "image_orientation_patient": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "orientation_consistent": true,
+      "slice_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "positions_available": true,
+      "position_projection_min": -226.5,
+      "position_projection_max": -84.0,
+      "position_step_median": 1.5,
+      "position_step_min": 1.5,
+      "position_step_max": 1.5,
+      "position_monotonic": true,
+      "position_direction": "increasing",
+      "rescale_slopes": [
+        1.0
+      ],
+      "rescale_intercepts": [
+        -1200.0
+      ],
+      "pixel_representations": [
+        "0"
+      ],
+      "instance_numbers": [
+        96,
+        95,
+        94,
+        93,
+        92,
+        91,
+        90,
+        89,
+        88,
+        87,
+        86,
+        85,
+        84,
+        83,
+        82,
+        81,
+        80,
+        79,
+        78,
+        77,
+        76,
+        75,
+        74,
+        73,
+        72,
+        71,
+        70,
+        69,
+        68,
+        67,
+        66,
+        65,
+        64,
+        63,
+        62,
+        61,
+        60,
+        59,
+        58,
+        57,
+        56,
+        55,
+        54,
+        53,
+        52,
+        51,
+        50,
+        49,
+        48,
+        47,
+        46,
+        45,
+        44,
+        43,
+        42,
+        41,
+        40,
+        39,
+        38,
+        37,
+        36,
+        35,
+        34,
+        33,
+        32,
+        31,
+        30,
+        29,
+        28,
+        27,
+        26,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "first_tags": {
+        "series_uid": "1.3.46.670589.10.1.1.2163374719.1137684481.588647",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.405493159911658411515822770371320186331",
+        "instance_number": "96",
+        "slice_thickness": "3 ",
+        "spacing_between_slices": null,
+        "pixel_spacing": "0.687671\\0.687671 ",
+        "image_orientation_patient": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "image_position_patient": [
+          -167.7859,
+          -176.0438,
+          -226.5
+        ],
+        "rescale_slope": 1.0,
+        "rescale_intercept": -1200.0,
+        "pixel_representation": "0",
+        "bits_stored": "16",
+        "photometric": "MONOCHROME2 ",
+        "rows": 512,
+        "cols": 512
+      },
+      "last_tags": {
+        "series_uid": "1.3.46.670589.10.1.1.2163374719.1137684481.588647",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.280510459111334941500669771943535450335",
+        "instance_number": "1 ",
+        "slice_thickness": "3 ",
+        "spacing_between_slices": null,
+        "pixel_spacing": "0.687671\\0.687671 ",
+        "image_orientation_patient": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "image_position_patient": [
+          -167.7859,
+          -176.0438,
+          -84.0
+        ],
+        "rescale_slope": 1.0,
+        "rescale_intercept": -1200.0,
+        "pixel_representation": "0",
+        "bits_stored": "16",
+        "photometric": "MONOCHROME2 ",
+        "rows": 512,
+        "cols": 512
+      },
+      "case_id": 1,
+      "modality": "CT",
+      "has_ground": true,
+      "ground_count": 96,
+      "ground_matches_dicom": true
+    }
+  },
+  "mr": {
+    "1": {
+      "case_id": 1,
+      "modality": "MR",
+      "t1_inphase": {
+        "series_uid": "1.3.46.670589.11.20182.5.0.7188.2013072408504492575",
+        "all_series_uids": [
+          "1.3.46.670589.11.20182.5.0.7188.2013072408504492575"
+        ],
+        "file_count": 35,
+        "size_xyz": [
+          256,
+          256,
+          35
+        ],
+        "array_shape_zyx": [
+          35,
+          256,
+          256
+        ],
+        "spacing_xyz": [
+          1.89453125,
+          1.89453125,
+          5.500000224394059
+        ],
+        "origin_xyz": [
+          -232.99694347381,
+          -238.76329636573,
+          -39.239204406738
+        ],
+        "direction": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "pixel_type": "16-bit unsigned integer",
+        "intensity_min": 0.0,
+        "intensity_max": 1136.0,
+        "image_orientation_patient": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "orientation_consistent": true,
+        "slice_normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "positions_available": true,
+        "position_projection_min": -39.239204406738,
+        "position_projection_max": 147.76080322266,
+        "position_step_median": 5.5,
+        "position_step_min": 5.499999999997996,
+        "position_step_max": 5.500007629400002,
+        "position_monotonic": true,
+        "position_direction": "increasing",
+        "rescale_slopes": [
+          1.0
+        ],
+        "rescale_intercepts": [
+          0.0
+        ],
+        "pixel_representations": [
+          "0"
+        ],
+        "instance_numbers": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62,
+          64,
+          66,
+          68,
+          70
+        ],
+        "first_tags": {
+          "series_uid": "1.3.46.670589.11.20182.5.0.7188.2013072408504492575",
+          "sop_uid": "1.3.6.1.4.1.9590.100.1.2.346746264511337123601819380610103680660",
+          "instance_number": "2 ",
+          "slice_thickness": "5 ",
+          "spacing_between_slices": "5.5 ",
+          "pixel_spacing": "1.89453125\\1.89453125 ",
+          "image_orientation_patient": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "image_position_patient": [
+            -232.99694347381,
+            -238.76329636573,
+            -39.239204406738
+          ],
+          "rescale_slope": 1.0,
+          "rescale_intercept": 0.0,
+          "pixel_representation": "0",
+          "bits_stored": "16",
+          "photometric": "MONOCHROME2 ",
+          "rows": 256,
+          "cols": 256
+        },
+        "last_tags": {
+          "series_uid": "1.3.46.670589.11.20182.5.0.7188.2013072408504492575",
+          "sop_uid": "1.3.6.1.4.1.9590.100.1.2.302373320112416889136473273852253890187",
+          "instance_number": "70",
+          "slice_thickness": "5 ",
+          "spacing_between_slices": "5.5 ",
+          "pixel_spacing": "1.89453125\\1.89453125 ",
+          "image_orientation_patient": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "image_position_patient": [
+            -232.99694347381,
+            -238.76329636573,
+            147.76080322266
+          ],
+          "rescale_slope": 1.0,
+          "rescale_intercept": 0.0,
+          "pixel_representation": "0",
+          "bits_stored": "16",
+          "photometric": "MONOCHROME2 ",
+          "rows": 256,
+          "cols": 256
+        },
+        "n_files": 35
+      },
+      "t1_outphase": {
+        "series_uid": "1.3.46.670589.11.20182.5.0.7188.2013072408504492575",
+        "all_series_uids": [
+          "1.3.46.670589.11.20182.5.0.7188.2013072408504492575"
+        ],
+        "file_count": 35,
+        "size_xyz": [
+          256,
+          256,
+          35
+        ],
+        "array_shape_zyx": [
+          35,
+          256,
+          256
+        ],
+        "spacing_xyz": [
+          1.89453125,
+          1.89453125,
+          5.500000224394059
+        ],
+        "origin_xyz": [
+          -232.99694347381,
+          -238.76329636573,
+          -39.239204406738
+        ],
+        "direction": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "pixel_type": "16-bit unsigned integer",
+        "intensity_min": 0.0,
+        "intensity_max": 1086.0,
+        "image_orientation_patient": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "orientation_consistent": true,
+        "slice_normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "positions_available": true,
+        "position_projection_min": -39.239204406738,
+        "position_projection_max": 147.76080322266,
+        "position_step_median": 5.5,
+        "position_step_min": 5.499999999997996,
+        "position_step_max": 5.500007629400002,
+        "position_monotonic": true,
+        "position_direction": "increasing",
+        "rescale_slopes": [
+          1.0
+        ],
+        "rescale_intercepts": [
+          0.0
+        ],
+        "pixel_representations": [
+          "0"
+        ],
+        "instance_numbers": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17,
+          19,
+          21,
+          23,
+          25,
+          27,
+          29,
+          31,
+          33,
+          35,
+          37,
+          39,
+          41,
+          43,
+          45,
+          47,
+          49,
+          51,
+          53,
+          55,
+          57,
+          59,
+          61,
+          63,
+          65,
+          67,
+          69
+        ],
+        "first_tags": {
+          "series_uid": "1.3.46.670589.11.20182.5.0.7188.2013072408504492575",
+          "sop_uid": "1.3.6.1.4.1.9590.100.1.2.226554278812292722939049617042197560419",
+          "instance_number": "1 ",
+          "slice_thickness": "5 ",
+          "spacing_between_slices": "5.5 ",
+          "pixel_spacing": "1.89453125\\1.89453125 ",
+          "image_orientation_patient": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "image_position_patient": [
+            -232.99694347381,
+            -238.76329636573,
+            -39.239204406738
+          ],
+          "rescale_slope": 1.0,
+          "rescale_intercept": 0.0,
+          "pixel_representation": "0",
+          "bits_stored": "16",
+          "photometric": "MONOCHROME2 ",
+          "rows": 256,
+          "cols": 256
+        },
+        "last_tags": {
+          "series_uid": "1.3.46.670589.11.20182.5.0.7188.2013072408504492575",
+          "sop_uid": "1.3.6.1.4.1.9590.100.1.2.47120465312053712638369778133670979385",
+          "instance_number": "69",
+          "slice_thickness": "5 ",
+          "spacing_between_slices": "5.5 ",
+          "pixel_spacing": "1.89453125\\1.89453125 ",
+          "image_orientation_patient": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "image_position_patient": [
+            -232.99694347381,
+            -238.76329636573,
+            147.76080322266
+          ],
+          "rescale_slope": 1.0,
+          "rescale_intercept": 0.0,
+          "pixel_representation": "0",
+          "bits_stored": "16",
+          "photometric": "MONOCHROME2 ",
+          "rows": 256,
+          "cols": 256
+        },
+        "n_files": 35
+      },
+      "t2_spir": {
+        "series_uid": "1.3.46.670589.11.20182.5.0.7188.2013072408455492442",
+        "all_series_uids": [
+          "1.3.46.670589.11.20182.5.0.7188.2013072408455492442"
+        ],
+        "file_count": 36,
+        "size_xyz": [
+          256,
+          256,
+          36
+        ],
+        "array_shape_zyx": [
+          36,
+          256,
+          256
+        ],
+        "spacing_xyz": [
+          1.54296875,
+          1.54296875,
+          7.699999999999914
+        ],
+        "origin_xyz": [
+          -192.65368556976,
+          -192.7957458496,
+          -77.092163085937
+        ],
+        "direction": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "pixel_type": "16-bit unsigned integer",
+        "intensity_min": 0.0,
+        "intensity_max": 1814.0,
+        "image_orientation_patient": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "orientation_consistent": true,
+        "slice_normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "positions_available": true,
+        "position_projection_min": -77.092163085937,
+        "position_projection_max": 192.40783691406,
+        "position_step_median": 7.6999988555910015,
+        "position_step_min": 7.699996948239004,
+        "position_step_max": 7.7000122070299994,
+        "position_monotonic": true,
+        "position_direction": "increasing",
+        "rescale_slopes": [
+          1.0
+        ],
+        "rescale_intercepts": [
+          0.0
+        ],
+        "pixel_representations": [
+          "0"
+        ],
+        "instance_numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "first_tags": {
+          "series_uid": "1.3.46.670589.11.20182.5.0.7188.2013072408455492442",
+          "sop_uid": "1.3.6.1.4.1.9590.100.1.2.274354416912505316541034323232205872766",
+          "instance_number": "1 ",
+          "slice_thickness": "7 ",
+          "spacing_between_slices": "7.7 ",
+          "pixel_spacing": "1.54296875\\1.54296875 ",
+          "image_orientation_patient": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "image_position_patient": [
+            -192.65368556976,
+            -192.7957458496,
+            -77.092163085937
+          ],
+          "rescale_slope": 1.0,
+          "rescale_intercept": 0.0,
+          "pixel_representation": "0",
+          "bits_stored": "16",
+          "photometric": "MONOCHROME2 ",
+          "rows": 256,
+          "cols": 256
+        },
+        "last_tags": {
+          "series_uid": "1.3.46.670589.11.20182.5.0.7188.2013072408455492442",
+          "sop_uid": "1.3.6.1.4.1.9590.100.1.2.36345968312493425138048321734083557462",
+          "instance_number": "36",
+          "slice_thickness": "7 ",
+          "spacing_between_slices": "7.7 ",
+          "pixel_spacing": "1.54296875\\1.54296875 ",
+          "image_orientation_patient": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "image_position_patient": [
+            -192.65368556976,
+            -192.7957458496,
+            192.40783691406
+          ],
+          "rescale_slope": 1.0,
+          "rescale_intercept": 0.0,
+          "pixel_representation": "0",
+          "bits_stored": "16",
+          "photometric": "MONOCHROME2 ",
+          "rows": 256,
+          "cols": 256
+        },
+        "n_files": 36
+      },
+      "t1_ground_count": 35,
+      "t2_ground_count": 36,
+      "t1_slice_mismatch_t2": true,
+      "t1_in_out_count_equal": true
+    }
+  },
+  "warnings": []
+}

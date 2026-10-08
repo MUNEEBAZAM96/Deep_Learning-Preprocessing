@@ -1,0 +1,235 @@
+{
+  "successful_cases": [
+    {
+      "modality": "CT",
+      "case_id": 8,
+      "split": "test"
+    },
+    {
+      "modality": "CT",
+      "case_id": 10,
+      "split": "test"
+    },
+    {
+      "modality": "CT",
+      "case_id": 25,
+      "split": "test"
+    },
+    {
+      "modality": "CT",
+      "case_id": 30,
+      "split": "test"
+    },
+    {
+      "modality": "CT",
+      "case_id": 1,
+      "split": "train"
+    },
+    {
+      "modality": "CT",
+      "case_id": 2,
+      "split": "train"
+    },
+    {
+      "modality": "CT",
+      "case_id": 5,
+      "split": "train"
+    },
+    {
+      "modality": "CT",
+      "case_id": 6,
+      "split": "train"
+    },
+    {
+      "modality": "CT",
+      "case_id": 14,
+      "split": "train"
+    },
+    {
+      "modality": "CT",
+      "case_id": 16,
+      "split": "train"
+    },
+    {
+      "modality": "CT",
+      "case_id": 18,
+      "split": "train"
+    },
+    {
+      "modality": "CT",
+      "case_id": 21,
+      "split": "train"
+    },
+    {
+      "modality": "CT",
+      "case_id": 22,
+      "split": "train"
+    },
+    {
+      "modality": "CT",
+      "case_id": 23,
+      "split": "train"
+    },
+    {
+      "modality": "CT",
+      "case_id": 26,
+      "split": "train"
+    },
+    {
+      "modality": "CT",
+      "case_id": 27,
+      "split": "train"
+    },
+    {
+      "modality": "CT",
+      "case_id": 28,
+      "split": "train"
+    },
+    {
+      "modality": "CT",
+      "case_id": 29,
+      "split": "train"
+    },
+    {
+      "modality": "CT",
+      "case_id": 19,
+      "split": "val"
+    },
+    {
+      "modality": "CT",
+      "case_id": 24,
+      "split": "val"
+    },
+    {
+      "modality": "MR",
+      "case_id": 8,
+      "split": "test"
+    },
+    {
+      "modality": "MR",
+      "case_id": 10,
+      "split": "test"
+    },
+    {
+      "modality": "MR",
+      "case_id": 33,
+      "split": "test"
+    },
+    {
+      "modality": "MR",
+      "case_id": 39,
+      "split": "test"
+    },
+    {
+      "modality": "MR",
+      "case_id": 1,
+      "split": "train"
+    },
+    {
+      "modality": "MR",
+      "case_id": 2,
+      "split": "train"
+    },
+    {
+      "modality": "MR",
+      "case_id": 3,
+      "split": "train"
+    },
+    {
+      "modality": "MR",
+      "case_id": 5,
+      "split": "train"
+    },
+    {
+      "modality": "MR",
+      "case_id": 13,
+      "split": "train"
+    },
+    {
+      "modality": "MR",
+      "case_id": 15,
+      "split": "train"
+    },
+    {
+      "modality": "MR",
+      "case_id": 19,
+      "split": "train"
+    },
+    {
+      "modality": "MR",
+      "case_id": 21,
+      "split": "train"
+    },
+    {
+      "modality": "MR",
+      "case_id": 22,
+      "split": "train"
+    },
+    {
+      "modality": "MR",
+      "case_id": 31,
+      "split": "train"
+    },
+    {
+      "modality": "MR",
+      "case_id": 34,
+      "split": "train"
+    },
+    {
+      "modality": "MR",
+      "case_id": 36,
+      "split": "train"
+    },
+    {
+      "modality": "MR",
+      "case_id": 37,
+      "split": "train"
+    },
+    {
+      "modality": "MR",
+      "case_id": 38,
+      "split": "train"
+    },
+    {
+      "modality": "MR",
+      "case_id": 20,
+      "split": "val"
+    },
+    {
+      "modality": "MR",
+      "case_id": 32,
+      "split": "val"
+    }
+  ],
+  "failed_cases": [],
+  "warnings": [
+    {
+      "modality": "MR",
+      "case_id": 36,
+      "warning": "T2->T1 registration QC failed"
+    },
+    {
+      "modality": "MR",
+      "case_id": 37,
+      "warning": "T2->T1 registration QC failed"
+    }
+  ],
+  "qc_issues": [
+    {
+      "modality": "MR",
+      "case_id": 36,
+      "issues": [
+        "T2->T1 registration QC failed (low organ overlap)"
+      ]
+    },
+    {
+      "modality": "MR",
+      "case_id": 37,
+      "issues": [
+        "T2->T1 registration QC failed (low organ overlap)"
+      ]
+    }
+  ],
+  "ct_mr_registration": false,
+  "note": "CT and MR are preprocessed independently because CHAOS CT and MR studies are unpaired. Intra-subject MR sequences (T1/T2) may be registered when required."
+}
